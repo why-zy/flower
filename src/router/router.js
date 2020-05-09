@@ -25,11 +25,6 @@ const routes = [
         component: ()=>import('@/views/flower material/Flower material.vue')
     },
     {
-        name:'Flower Shopping Center',
-        path:'flower Shopping Center',
-        component: ()=>import('@/views/flower Shopping Center/Flower Shopping Center.vue')
-    },
-    {
         name:'Shopping Cart',
         path:'/shopping Cart',
         component: ()=>import('@/views/shopping Cart/Shopping Cart.vue')
